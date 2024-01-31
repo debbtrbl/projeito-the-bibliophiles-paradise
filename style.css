@@ -1,0 +1,69 @@
+body {
+  background-image: linear-gradient(#00131a,#2e085f);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+}
+
+.cartao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #120429;
+  width: 20%;
+  height: 700px;
+  border-radius: 10px;
+  padding: 50px 80px;
+  gap: 40px;
+
+}
+
+.cartao #logo{
+  padding: 0 0 40px 0;
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: 'Chalet';
+}
+
+
+#anterior, #proximo {
+  font-size: 3rem;
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
